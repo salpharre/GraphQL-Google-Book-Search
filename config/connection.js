@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch",
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/graphqlgooglebooksearch",
 {
   useNewUrlParser: true,
   useUnifiedTopology: true,

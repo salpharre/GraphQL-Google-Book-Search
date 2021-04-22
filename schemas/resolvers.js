@@ -1,7 +1,9 @@
 const resolvers = {
-    Query: {
-      
+  Query: {
+    helloWorld: () => {
+      return 'Hello world!';
     }
-  };
-  
-  module.exports = resolvers;
+  }
+};
+
+module.exports = resolvers;
